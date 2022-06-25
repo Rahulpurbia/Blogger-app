@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 import { Form, Button } from 'react-bootstrap'
 
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 import { useSelector, useDispatch } from 'react-redux'
 
@@ -124,6 +124,7 @@ const Login = () => {
                     disabled={isBtnDisabled}>
                     Login
                 </Button>
+                <Link style={{ width: "max-content" }} to='/auth/signup'>SignUp</Link>
             </Form >
         </div>
     )

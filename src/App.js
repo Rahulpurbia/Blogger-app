@@ -11,6 +11,8 @@ import ToastContainer from './components/ToastContainer';
 import ToggleThemeButton from './components/ToggleThemeButton';
 
 import Login from './pages/auth/Login';
+import SignUp from './pages/auth/SignUp';
+
 import Blogs from './pages/Blogs';
 import AboutUs from './pages/AboutUs';
 import BlogPost from './pages/BlogPost';
@@ -42,6 +44,7 @@ function App() {
         <Route path='auth'>
           <Route index element={user?.details ? <Navigate to='/' /> : <Login />} />
           <Route path='login' element={user?.details ? <Navigate to='/' /> : <Login />} />
+          <Route path='signup' element={user?.details ? <Navigate to='/' /> : <SignUp />} />
         </Route>
         <Route path='account'>
           <Route index element={user?.details ? <Dashboard /> : <Navigate to="/auth/login" />} />
