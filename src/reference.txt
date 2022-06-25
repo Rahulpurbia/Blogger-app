@@ -1,0 +1,27 @@
+/
+/:blogId
+/about-us
+/auth/login
+/account -> /account/dashboard
+/account/dashboard
+/account/editor
+/account/editor/:blogId
+/account/preferences
+
+
+
+put search bar and pagination in dashboarsd
+disable update button when no changes                                    
+change of api calls 
+like bug using redux******
+chnage filter and sort
+use redux
+icon color inversion using filter property                                     
+Adding email field in blog post and delete database se author field;
+check jsonplaceholder website as you have to connect the app with that
+when change to dashboard from 5 pages in home it does not show data...... *****
+adding theme to localstorage 
+change user search system
+navbar ui problem during hamburger mode
+equal width of all the pages*****
+responsiveness******

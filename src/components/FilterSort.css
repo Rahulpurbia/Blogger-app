@@ -1,0 +1,14 @@
+.responsive-text {
+    font-size: max(16px, min(3vw, 19px))
+}
+
+
+::placeholder {
+    font-size: max(10px, min(1.8vw, 16px))
+}
+
+/* @media screen and (max-width:640px) {
+    .flex-md-responsive {
+        flex-direction: column;
+    }
+} */

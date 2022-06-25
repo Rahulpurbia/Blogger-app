@@ -1,0 +1,7 @@
+Search         Url              status 
+
+everything      /posts            to be deleted
+
+by author     /users?_embed=posts    pending
+by title       /posts                working
+by date         /posts              working

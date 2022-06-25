@@ -1,0 +1,12 @@
+#profile-section div>div,
+.preference-section>div {
+    line-height: 3em;
+}
+
+hr {
+    width: 100%;
+}
+
+.bg-light-black {
+    background-color: #444;
+}

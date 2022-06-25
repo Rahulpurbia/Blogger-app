@@ -1,0 +1,32 @@
+:root {
+    --dark-theme-primary-color: #212529;
+    --dark-theme-secondary-color: #444;
+    --dark-theme-text-color: white;
+    --light-theme-primary-color: white;
+    --light-theme-secondary-color: rgb(228, 228, 228);
+    --light-theme-text-color: black;
+}
+
+.font-larger {
+    font-size: 22px;
+}
+
+.bg-black {
+    background-color: var(--dark-theme-primary-color);
+    color: var(--dark-theme-text-color)
+}
+
+.bg-light-black {
+    background-color: var(--dark-theme-secondary-color);
+    color: var(--dark-theme-text-color)
+}
+
+.bg-light {
+    background-color: var(--light-theme-primary-color);
+    color: var(--light-theme-text-color)
+}
+
+.bg-dull-light {
+    background-color: var(--light-theme-secondary-color);
+    color: var(--light-theme-text-color)
+}

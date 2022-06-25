@@ -1,0 +1,15 @@
+.nav-link {
+    color: inherit !important;
+}
+
+.active {
+    color: #00cf00 !important;
+}
+
+.navbar-brand {
+    color: inherit !important;
+}
+
+.navbar-toggler {
+    border: none;
+}

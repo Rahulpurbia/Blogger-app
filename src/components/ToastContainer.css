@@ -1,0 +1,18 @@
+.fixed-top-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1030;
+}
+
+@keyframes animate-toast {
+    from {
+        transform: translateX(200px);
+        opacity: 0.2;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
